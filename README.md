@@ -19,27 +19,27 @@ Integrantes:
 **Resumen del Módulo** <https://github.com/nicotox3/TyHM2/blob/main/Modulo2_TyH2%20(1).zip>
 |**Clase**|**Links de GitHub**|
 |---------------------------|-----------------------|
-|2|<https://github.com/allaymaria/TyHM2/tree/main/Clase%202>|
-|3|<https://github.com/allaymaria/TyHM2/tree/main/Clase%203>|
+|2|<https://github.com/nicotox3/TyHM2/tree/main/Clase%202>|
+|3|<https://github.com/nicotox3/TyHM2/tree/main/Clase%203>|
 
 ## Módulo 3: Taller complementario fotografía forense digital
 **Resumen del Módulo** <https://github.com/nicotox3/TyHM2/blob/main/Modulo3_TyH2.zip>
 |**Clase**|**Links de GitHub**|
 |---------------------------|-----------------------|
-|5|<https://github.com/allaymaria/TyHM2/tree/main/Clase%205>|
-|6|<https://github.com/allaymaria/TyHM2/tree/main/Clase%206>|
+|5|<https://github.com/nicotox3/TyHM2/tree/main/Clase%205>|
+|6|<https://github.com/nicotox3/TyHM2/tree/main/Clase%206>|
 
 ## Módulo 4: SIG Sistemas de Información Geográficos
 **Resumen del Módulo** <https://github.com/nicotox3/TyHM2/blob/main/Modulo4_TyH2.zip>
 |**Clase**|**Links de GitHub**|
 |---------------------------|-----------------------|
-|7|<https://github.com/allaymaria/TyHM2/tree/main/Clase%207>|
-|8|<https://github.com/allaymaria/TyHM2/tree/main/Clase%208>|
+|7|<https://github.com/nicotox3/TyHM2/tree/main/Clase%207>|
+|8|<https://github.com/nicotox3/TyHM2/tree/main/Clase%208>|
 
 ## Módulo 5: Dinámica de Sistemas
 **Resumen del Módulo** <https://github.com/nicotox3/TyHM2/blob/main/Modulo5_TyH2.zip>
 |**Clase**|**Links de GitHub**|
 |---------------------------|-----------------------|
-|9|<https://github.com/allaymaria/TyHM2/tree/main/Clase%209>|
-|10|<https://github.com/allaymaria/TyHM2/tree/main/Clase%2010>|
-|11|<https://github.com/allaymaria/TyHM2/tree/main/Clase%2011>|
+|9|<https://github.com/nicotox3/TyHM2/tree/main/Clase%209>|
+|10|<https://github.com/nicotox3/TyHM2/tree/main/Clase%2010>|
+|11|<https://github.com/nicotox3/TyHM2/tree/main/Clase%2011>|
