@@ -5,7 +5,7 @@ Integrantes:
 |María Allay|<https://github.com/allaymaria/TyHM2>|
 |Emiliano Jaime|<https://github.com/emiliano-jaime/TecnicasyHerramientas2>|
 |Nancy Sara|<https://github.com/nancy-sara/TyHMII>|
-|Nicolás La Rocca|<>|
+|Nicolás La Rocca|<https://github.com/nicotox3/TyHM2>|
 ## Modulo 1: Toma de Decisiones
 **Resumen del Módulo** <https://github.com/allaymaria/TyHM2/blob/main/Modulo1_TyH2.zip>
 |**Clase**|**Links de GitHub**|
