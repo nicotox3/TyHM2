@@ -1,4 +1,4 @@
-# Tecnicas y Herramientas 2
+# Técnicas y Herramientas 2
 Integrantes:
 |**Nombre**|**Links de Repositorios Individuales**|
 |---------------------------|-----------------------|
