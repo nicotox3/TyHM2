@@ -10,7 +10,7 @@ Integrantes:
 **Resumen del Módulo** <https://github.com/allaymaria/TyHM2/blob/main/Modulo1_TyH2.zip>
 |**Clase**|**Links de GitHub**|
 |---------------------------|-----------------------|
-|1|[<https://github.com/allaymaria/TyHM2/tree/main/Clase%201>](https://github.com/nicotox3/TyHM2/blob/main/CLASE%201)|
+|1|<https://github.com/nicotox3/TyHM2/blob/main/CLASE%201>|
 |4|<https://github.com/allaymaria/TyHM2/tree/main/Clase%204>|
 |6|<https://github.com/allaymaria/TyHM2/tree/main/Clase%206>|
 
