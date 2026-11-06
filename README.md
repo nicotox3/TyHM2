@@ -43,3 +43,9 @@ Integrantes:
 |9|<https://github.com/nicotox3/TyHM2/tree/main/Clase%209>|
 |10|<https://github.com/nicotox3/TyHM2/tree/main/Clase%2010>|
 |11|<https://github.com/nicotox3/TyHM2/tree/main/Clase%2011>|
+## Módulo 6: SQL (Structured Query Language)
+**Resumen del Módulo** <>
+|**Clase**|**Links de GitHub**|
+|---------------------------|-----------------------|
+|12|<>|
+
