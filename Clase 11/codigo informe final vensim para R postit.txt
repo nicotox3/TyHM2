@@ -1,0 +1,62 @@
+---
+title: "Estructuras Genéricas en Sistemas Oscilantes y Dinámica de Sistemas"
+subtitle: "Informe Integral: Péndulo Físico, Inestabilidad Laboral, Vensim y Comportamientos Dinámicos"
+author: "María Allay, Emiliano Jaime, Nancy Sara y Nicolás La Rocca"
+institute: "UNCUYO - Facultad de Ingeniería, Mendoza, Argentina"
+date: "4 de Noviembre de 2026"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    latex_engine: xelatex
+geometry: "a4paper, margin=2.5cm"
+lang: es
+header-includes:
+  - \usepackage{float}
+  - \usepackage{graphicx}
+  - \usepackage{caption}
+  - \captionsetup[figure]{name=FIGURA N°,labelsep=colon,justification=centering}
+  - \usepackage{titling}
+  - \pretitle{\begin{center}\vspace*{2.5cm}\Huge\bfseries}
+  - \posttitle{\par\end{center}\vspace{0.7cm}}
+  - \preauthor{\begin{center}\large}
+  - \postauthor{\par\end{center}\vspace{1.2cm}}
+  - \predate{\begin{center}\large}
+  - \postdate{\par\end{center}\vfill\thispagestyle{empty}\clearpage\pagenumbering{arabic}}
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  eval = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  fig.pos = "H",
+  out.width = "75%"
+)
+
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+```
+
+# Nota Introductoria y Marco Teórico {.unnumbered}
+
+Este estudio se basa en el manual **"Estructuras Genéricas en Sistemas Oscilantes I"**, desarrollado originalmente para el **Proyecto de Dinámica de Sistemas en la Educación del MIT**, bajo la supervisión del **Dr. Jay W. Forrester** (Escuela de Administración Sloan, Instituto Tecnológico de Massachusetts). El objetivo principal de este informe es formalizar la simulación y el análisis cualitativo y cuantitativo de las estructuras de retroalimentación en sistemas oscilatorios y dinámicos a partir de dichos fundamentos teóricos.
+
+---
+
+# Resumen de la Situación del Péndulo Físico
+
+El **modelo del péndulo simple** representa un sistema físico compuesto por una masa \(m\) suspendida de una varilla rígida de longitud \(L\), sujeta a la fuerza de gravedad \(g\). En un entorno ideal sin fricción:
+
+- **Mecánica del sistema:** las fuerzas que actúan son la gravedad y la tensión de la varilla.
+- **Fuerza restauradora:** cuando la masa se desplaza de su posición de equilibrio (\(X = 0\)), la gravedad genera una fuerza que impulsa a la masa de regreso al centro.
+- **Generación de oscilación:** al moverse hacia \(X = 0\), la masa acumula velocidad (energía cinética). Al alcanzar el centro, la fuerza tangencial restauradora se anula, pero la inercia provoca que la masa sobrepase (*overshoot*) la posición de equilibrio hacia el lado opuesto.
+- **Resultado dinámico:** este intercambio continuo entre energía potencial (posición) y cinética (velocidad) produce una oscilación sostenida en el modelo ideal. Para pequeñas oscilaciones, el período aproximado es \(T = 2\pi\sqrt{L/g}\); con \(L = 1\ \text{m}\), resulta cercano a 2 segundos.
+
+```{r fig_pendulo_fisico, echo=FALSE, fig.cap="Componentes mecánicos del péndulo físico: masa suspendida, longitud de la varilla, desplazamiento y fuerzas actuantes.", fig.align='center', out.width='75%'}
+knitr::include_graphics("pendulo.jpg")
+```
