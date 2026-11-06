@@ -75,3 +75,18 @@ Las líneas y flechas comunican la secuencia temporal, jerarquías y dependencia
 * **1:1 (Uno a Uno):** Un elemento de la entidad A se asocia con un único elemento de la entidad B.
 * **1:N (Uno a Muchos):** Un elemento de A puede vincularse con múltiples elementos en B.
 * **N:M (Muchos a Muchos):** Múltiples elementos en A se asocian con múltiples elementos en B.
+
+* ---
+
+## 5. Software de Benchmarking y Pruebas de Rendimiento en SQL
+El **software de benchmarking de bases de datos** se utiliza para medir el rendimiento, la velocidad de procesamiento, la concurrencia y la escalabilidad de un motor SQL bajo cargas de trabajo simuladas o masivas.
+
+* **Utilidad principal:**
+  * Evaluar tiempos de respuesta ante transacciones por segundo (TPS).
+  * Detectar cuellos de botella en consultas complejas, bloqueos (*locks*) o indexación deficiente.
+  * Comparar el rendimiento de distintas plataformas de bases de datos (PostgreSQL, MySQL, SQL Server, Oracle).
+
+* **Herramientas populares de la industria:**
+  * **HammerDB:** Considerado uno de los estándares de código abierto más potentes para pruebas de carga (*load testing*) y stress de bases de datos relacionales. Soporta múltiples motores y permite automatización con reportes basados en web y scripts de CI/CD.
+  * **Sysbench:** Una herramienta modular y multiplataforma orientada a evaluar el rendimiento del sistema operativo y de bases de datos (especialmente MySQL/MariaDB), midiendo operaciones de lectura/escritura por segundo.
+  * **BenchBase:** Un marco de pruebas de rendimiento enfocado en OLTP (*Online Transaction Processing*) diseñado para comparar arquitecturas de bases de datos mediante cargas transaccionales estandarizadas.
