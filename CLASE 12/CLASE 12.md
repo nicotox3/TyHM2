@@ -5,8 +5,6 @@
 
 ## 📌 Resumen de la Clase
 
-# 📚 Resumen de SQL, Diagramación de Procesos y Modelo Entidad-Relación
-
 Este documento contiene un resumen práctico sobre conceptos fundamentales de bases de datos (**SQL**), **Diagramas de Procesos** y el **Modelo Entidad-Relación (DER)**, incluyendo la simbología y los tipos de conexiones gráficos habituales.
 
 ---
