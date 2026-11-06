@@ -47,5 +47,5 @@ Integrantes:
 **Resumen del Módulo** <>
 |**Clase**|**Links de GitHub**|
 |---------------------------|-----------------------|
-|12|<>|
+|12|<https://github.com/nicotox3/TyHM2/blob/main/CLASE%2012/CLASE%2012.md>|
 
